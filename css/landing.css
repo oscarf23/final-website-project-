@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* RESET */
+* {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation links */
+#navigation a {
+	text-decoration: none;
+	font-family: Ariel, "Helevetica Neue", Helvetica, sans-serif;
+    color: aliceblue
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li {
+	float: left;
+}
+
+/* navagation links */
+li a {
+	display: block;
+	padding: 14px 16px;
+	background-color: black;
+	text-align: center;
+}
+
+/* link color on hover */
+li a:hover {
+	background-color: #2F59CB;
+}
+
+#logo-container img {
+	width: 100%;
+	height: auto;
+}
+
+#about {
+	font-family: Ariel, "Helvetica Neue";
+	font-size: 50px;
+	color: white;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+}
+
+.about-us {
+	color: white;
+	font-family: "DIN Condensed";
+	font-size: 19px;
+	letter-spacing: .75px;
+	margin: 10px 100px;
+}

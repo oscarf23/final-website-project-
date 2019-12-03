@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* RESET */
+* {
+	background-color: darkgray;
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation links */
+#navigation a {
+	text-decoration: none;
+	font-family: Ariel, "Helevetica Neue", Helvetica, sans-serif;
+    color: aliceblue
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li {
+	float: left;
+}
+
+/* navagation links */
+li a {
+	display: block;
+	padding: 14px 16px;
+	background-color: black;
+	text-align: center;
+}
+
+/* link color on hover */
+li a:hover {
+	background-color: #2F59CB;
+}
+
+
+/* Icon for respective pages */
+.icon {
+	float: right;
+	width: 46px;
+}
+
+
+
+
+
+
+
+/* category container grid */
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	grid-auto-rows: 200px;
+	column-gap: 10px;
+	row-gap: 1em;
+	
+}
+
+ol {
+	list-style-type: decimal;
+	
+}
+
+.container-mexican {
+	margin:20px;
+	border: thick solid #000000;
+	padding: 20px;
+}
+
+.wrapper-1 {
+	margin: 50px;
+}
+
+#container-list {
+	margin: 50px 40px;
+}
+
